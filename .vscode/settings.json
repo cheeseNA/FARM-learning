@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["fastapi", "jsonable", "pydantic", "starlette"]
+  "cSpell.words": [
+    "bson",
+    "fastapi",
+    "jsonable",
+    "pydantic",
+    "starlette",
+    "todos"
+  ]
 }
