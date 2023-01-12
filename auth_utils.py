@@ -8,7 +8,7 @@ JWT_KEY = config("JWT_KEY")
 
 
 class AuthJwtCsrf:
-    pwd_ctx = CryptContext(schemas=["bcrypt"], deprecated="auto")
+    pwd_ctx = CryptContext(schemes=["bcrypt"], deprecated="auto")
     secret_key = JWT_KEY
 
     def generate_hashed_pw(self, password) -> str:
