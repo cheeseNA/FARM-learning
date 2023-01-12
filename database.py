@@ -23,7 +23,7 @@ def todo_serializer(todo) -> dict:
 
 
 def user_serializer(user) -> dict:
-    return {"id": str(user["id"]), "email": user["email"]}
+    return {"id": str(user["_id"]), "email": user["email"]}
 
 
 async def db_create_todo(data: dict) -> Union[dict, bool]:
